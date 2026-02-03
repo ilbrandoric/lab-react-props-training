@@ -1,0 +1,61 @@
+
+
+.credit-card {
+  width: 420px;
+  height: 230px;
+  border-radius: 18px;
+  padding: 20px;
+  margin-bottom: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+
+  /* makes text smoother on colored backgrounds */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* subtle professional effect */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+/* ---------- TOP (logo) ---------- */
+
+.card-top {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card-top img {
+  width: 49px;
+}
+
+/* ---------- NUMBER ---------- */
+
+.card-number {
+  font-size: 28px;
+  letter-spacing: 4px;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* ---------- BOTTOM ---------- */
+
+.card-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.bank-exp {
+  font-size: 14px;
+}
+
+.owner {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
